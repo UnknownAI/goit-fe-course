@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    list-style: none;
+    font-family: Arial, sans-serif; 
+}
+
+.conteiner{
+  
+    background-image:url("../img/page-bg.jpg");
+    background-position: center center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+
+.wrapper{
+    width: 1024px;
+    padding-top: 115px;
+    padding-left: 60px; 
+    padding-right: 60px;
+    padding-bottom: 43px;  
+    background: #fff;
+    margin: auto; 
+}
+
+.title{
+    font-family:"Pathway Gothic One", sans-serif;
+    text-transform: uppercase; 
+    font-size:32px;
+    color: #344260;
+}
+
+#title1, #title2{
+    margin-bottom: 50px;
+}
+#title3{
+    margin-bottom:65px;
+}
+#title4{
+    margin-bottom: 35px;
+}
+
+.block1{
+    padding-bottom: 48px;
+    border-bottom:1px solid #dedbdb; 
+}
+
+
+.img{
+    float: left;
+    margin-right: 17px;
+    margin-bottom: 22px;
+}
+
+.text-bold, .text{
+    line-height: 19px;
+}
+
+.text-bold{
+    font-size: 15px;
+    color: #263555; 
+}
+
+.text{
+    font-size: 13px;
+    color: #4e5050;
+}
+
+#bold-text-profile{
+    margin-bottom: 15px;
+}
+#bold-text-offer{
+    margin-bottom: 25px;
+}
+
+.item-title{
+    font-weight: normal;
+    font-size:15px;
+    margin-bottom: 13px;
+    color:#263555;
+}
+
+#paragraph2{
+    float:right; 
+}
+
+.profile-article, .offer-article{
+    display: inline-block;
+    width:643px;
+    vertical-align: top;
+}
+
+.clear-fix::after{
+    content: '';
+    display: block;
+    clear: both;  
+}
+
+.principles-list, .testimonial{
+display: inline-block;
+margin-left: 45px;
+width: 210px;
+}
+
+.principles-list{
+    vertical-align: top;
+    counter-reset: counter;
+}
+
+.item-info{
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    margin-left:10px;
+    margin-bottom:30px;
+}
+
+.list-item::before{
+    content: counter(counter); 
+    display: inline-block;
+    width: 26px;
+    height: 28px;
+    line-height: 30px;
+    font-size:13px;
+    color: #fff;
+    text-align: center;
+    background-color:#38afe5;
+    border-radius: 50px;
+    vertical-align: top;
+}
+.list-item{
+    counter-increment: counter;
+}
+
+.block2{
+    margin-top:55px;
+}
+
+.quote{
+    width: 211px;
+    height: 193px;
+    background-color: #fcfafa;
+    border: 1px solid #dedbdb;
+    padding: 22px 20px 22px 20px; 
+
+}
+
+.quote-text::before{
+    content:'\201c\0020'; 
+    
+}
+.quote-text::after{
+    content: '\0020\201d';
+}
+
+.author{
+    text-align: center;
+    font-size:16px; 
+    color:#263555;
+    margin-top:30px;
+}
+
+.post{
+    text-align: center;
+    margin-top:20px;
+}
+
+.offers{
+    width: 500px;
+}
+
+.offer-list{
+    column-count: 2;   
+}
+
+.offer-list-item{
+  margin-bottom: 25px; 
+  font-size:15px; 
+}
+
+.offer-list-item::before{
+    content: '\2192\0020';
+    color:#38afe5;
+}
+
+
+
