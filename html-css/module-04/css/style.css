@@ -18,10 +18,7 @@
 
 .wrapper{
     width: 1024px;
-    padding-top: 115px;
-    padding-left: 60px; 
-    padding-right: 60px;
-    padding-bottom: 43px;  
+    padding: 115px 60px 80px 60px;
     background: #fff;
     margin: auto; 
 }
@@ -170,6 +167,7 @@ width: 210px;
 
 .offers{
     width: 500px;
+    height: 180px;
 }
 
 .offer-list{
