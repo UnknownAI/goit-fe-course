@@ -45,7 +45,7 @@
 
 }
 
-.principles-list{
+.principles-article{
    margin-top:50px;    
    padding-bottom:52px; 
    border-bottom:1px solid #dedbdb; 
@@ -57,8 +57,8 @@
      margin-bottom: 36px;   
 } 
 
-.offer-list{
-    padding-left: 23px;
+.principles-list li{
+     margin-top: 20px;
 }
 
 .img{
@@ -71,19 +71,18 @@
     color:#263555;
 }
 
-.list{
-  column-count: 2;
-  font-size:14px; 
-  color: #263555;
-  
-}
-.offer-list{
-    margin: auto;
-    margin-top: 20px;
+.offer-list-block{
+    margin-top: 20px; 
+    padding-left: 23px; 
 }
 
-.list li{
-    list-style-type: none; 
+.offer-list{
+  column-count: 2;
+  font-size:14px; 
+  color: #263555;  
+}
+
+.offer-list li{
     margin-bottom: 25px;
     color: #263555;
 }
