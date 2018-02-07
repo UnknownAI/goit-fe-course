@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box; 
-    font-family: Arial, sans-serif;
+    list-style: none;
 }
 
 .conteiner{
@@ -13,21 +13,18 @@
     background-repeat: no-repeat; 
     padding-top: 120px;
     padding-bottom: 500px;
+
 }
 
 .wrapper{
-    
     width: 480px;
-    padding-top: 30px;
-    padding-left: 37px; 
-    padding-right: 37px;
-    padding-bottom: 43px; 
+    padding: 59px 37px 43px;
     background: white;
     margin: auto; 
+    font-family: Arial, sans-serif;
 }
 
 .title{
-
     font-family:"Pathway Gothic One", sans-serif;
     text-transform: uppercase; 
     margin-bottom: 30px; 
@@ -36,6 +33,7 @@
 
 .text{
     font-size:12px;  
+    line-height: 17px;
 }
 
 .bold-text{
@@ -45,10 +43,6 @@
     margin-top: 25px;
     color: #263555;
 
-}
-
-.profile-article, .principles-list, .offer-article, .offer-list{ 
-    margin: auto;   
 }
 
 .principles-list{
@@ -71,23 +65,26 @@
     display: block;
     margin: auto; 
 }
-.list li{
-
-    list-style-type: none; 
-    margin-bottom: 25px;
-    
-}
 
 .list-title{
     margin-bottom:17px;
     color:#263555;
 }
 
-.offer-list ul {
-
+.list{
   column-count: 2;
   font-size:14px; 
+  color: #263555;
+  
+}
+.offer-list{
+    margin: auto;
+    margin-top: 20px;
 }
 
-
+.list li{
+    list-style-type: none; 
+    margin-bottom: 25px;
+    color: #263555;
+}
 

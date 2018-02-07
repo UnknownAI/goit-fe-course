@@ -145,6 +145,7 @@ width: 210px;
 
 }
 
+
 .quote-text::before{
     content:'\201c\0020'; 
     
