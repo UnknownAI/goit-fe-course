@@ -30,17 +30,17 @@
     color: #344260;
 }
 
-#title1, #title2{
+.title-first-block{
     margin-bottom: 50px;
 }
-#title3{
+.title-offer{
     margin-bottom:65px;
 }
-#title4{
+.title-testimonial{
     margin-bottom: 35px;
 }
 
-.block1{
+.first-block{
     padding-bottom: 48px;
     border-bottom:1px solid #dedbdb; 
 }
@@ -59,6 +59,7 @@
 .text-bold{
     font-size: 15px;
     color: #263555; 
+    margin-bottom: 15px;
 }
 
 .text{
@@ -66,12 +67,7 @@
     color: #4e5050;
 }
 
-#bold-text-profile{
-    margin-bottom: 15px;
-}
-#bold-text-offer{
-    margin-bottom: 25px;
-}
+
 
 .item-title{
     font-weight: normal;
@@ -80,7 +76,7 @@
     color:#263555;
 }
 
-#paragraph2{
+.text-afert-pic{
     float:right; 
 }
 
@@ -132,7 +128,7 @@ width: 210px;
     counter-increment: counter;
 }
 
-.block2{
+.second-block{
     margin-top:55px;
 }
 
