@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.wrapper-top{
+    background-image: url(../img/background.png); 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover; 
+    padding-top: 20px;
+    padding-bottom: 138px;
+}
+.conteiner{
+    width:300px;
+    margin: auto;
+}
+
+.header{
+    display: flex; 
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+    height: 200px; 
+}
+.logo{
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav{
+    width: 100%;
+}
+
+.nav{
+    display:flex; 
+    justify-content: center;
+}
+
+.nav-item{
+    padding: 10px 19px;
+} 
+.nav-link{
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-item:hover{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 8px 17px;
+}
+
+.main-title{
+    color:  #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 19px;
+    text-transform: uppercase;
+}
+.sub-title{
+    font-family: 'Roboto', sans-serif;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 19px;
+    padding: 0 29.5px;
+}
+
+.main-button-link{
+    border-radius: 20px;
+    background-color: #ff4e50;
+    display: block;
+    padding: 10px 0;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.wrapper-bottom{
+    padding-top:70px;
+    padding-bottom:57px;
+}
+
+.partner-title{
+    color:  #333333;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.list-partner{
+    margin: auto;
+    width: 217px;
+ 
+}
+.partner{
+    margin-bottom: 27px;
+}
+
+.partner-pic{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.partner-name, .partner-about{
+    text-align: center;
+}
+
+.partner-name{
+    margin-bottom: 16px;
+    color:  #333333;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.partner-about{
+    font-family: Roboto;
+color:  #666666;
+font-size: 13.97px;/* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+text-align: center;
+}
+
+.partner-button-link{
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    display: block;
+    padding: 10px 0;
+    color:  #ff4e50;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media(min-width: 768px){
+    .wrapper-top{
+        padding-top: 38px;
+        padding-bottom: 272px;
+    }
+    .conteiner{
+        width: 660px;  
+    } 
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+        margin: auto;
+        height: 100%; 
+        margin-bottom: 160px;
+    }
+
+    nav{
+        width: 30%;  
+    }
+
+    .main-title{
+        font-size: 50px;
+        padding:0 85px;
+    }
+
+    .sub-title{
+        padding: 0 0;
+        margin-bottom: 34px;
+    }
+
+    .main-button{ 
+        padding: 0 215px;
+    }
+
+    .partner-title{
+        margin-bottom: 34px;
+    }
+    .list-partner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+     
+    }
+    .partner{
+        flex-basis: 50%;
+        margin-bottom: 0;
+    }
+     .partner:nth-child(2n+1){
+        margin-bottom: 50px;
+    } 
+
+    .partner-button{
+        margin-top: 30px;
+        padding: 0 233px;
+    }
+
+}
+
+@media(min-width:1200px){
+    .wrapper-top{
+        padding-top: 46px;
+        padding-bottom: 234px;
+    }
+    .conteiner{
+        width: 940px;
+    }
+    .header{
+        margin-bottom: 154px;
+    }
+    nav{
+        width: 20%;  
+    }
+    .main-title{
+        font-size: 52px;
+        padding:0 200px;
+        margin-bottom: 50px;
+    }
+    .main-button{ 
+        padding: 0 355px;
+    }
+    .list-partner{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;     
+        height: 0%;  
+    }
+    .partner{
+        flex-basis: 23%;
+    }
+    .partner-button{
+      
+        padding: 0 370px;
+    }
+  
+}
