@@ -1,0 +1,248 @@
+@font-face{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400; 
+    src:  url(../font/Montserrat/montserrat-v12-latin-regular.woff) format('woff'),
+    url(../font/Montserrat/montserrat-v12-latin-regular.woff2) format('woff2'); 
+
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700; 
+    src:  url(../font/Montserrat/montserrat-v12-latin-700.woff) format('woff'),
+    url(../font/Montserrat/montserrat-v12-latin-700.woff2) format('woff2'); 
+
+}
+
+@font-face{
+    font-family: 'RobotoSlab';
+    font-style: normal; 
+    font-weight: 400; 
+    src: url(../font/roboto-slab/roboto-slab-v7-latin-regular.woff) format('woff'),
+    url(../font/roboto-slab/roboto-slab-v7-latin-regular.woff2) format('woff2'); 
+}
+
+@font-face{
+    font-family: 'pt-serif';
+    font-style: italic;
+    font-weight: 400;
+    src: url(../font/pt-serif/pt-serif-v9-latin-italic.woff) format('woff'),
+    url(../font/pt-serif/pt-serif-v9-latin-italic.woff2) format('woff2'); 
+}
+
+@font-face{
+    font-family: 'Wisdom';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/wisdom-script/WisdomScriptAJ.woff) format('woff');
+}
+
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 945px;
+    margin: auto;
+    padding-top: 45px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo{
+  font-family: 'Wisdom';
+  font-size: 26px;
+  color: #fed136;
+}
+
+nav{
+    flex-basis: 51%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+color: #fed136;
+} 
+
+.main{
+    margin-top:120px;
+    margin-bottom:100px;
+}
+.title, .sub-title{
+    text-align: center;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+.sub-title{
+    font-family: 'pt-serif', serif;
+    color: #777777;
+    font-size: 16px;
+    margin-bottom:60px;
+
+}
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+
+.services-item{
+    width: 31%;
+}
+
+.item-title{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.item-text{
+    font-family:'RobotoSlab'; 
+    font-size: 14px;
+    text-align: center;
+    color: #777777;
+
+}
+.img-border{
+    margin: auto;
+    position: relative;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: 3px solid #fed136;
+    margin-bottom: 30px;
+   
+}
+
+.item-img{
+    display: block;
+    position: absolute;
+    top:50%;
+    left: 50%; 
+    transform:translate(-50%, -50%);
+}
+
+.contacts{
+    background-image: url("../img/bcg.png");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover; 
+    padding: 110px 0;
+}
+
+.contact-color-title{
+    color:#ffffff;
+}
+
+.form{
+    margin: auto;    
+    width: 100%;
+}
+
+
+.form-wrapper{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.info-form{
+    flex-basis: 45%;
+}
+
+.comment-form{
+    flex-basis: 45%;
+}
+
+::placeholder{
+    color: #ccc;
+}
+
+.input-info, .comment-info{
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    background-color:  #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 700; 
+    padding-left: 20px;
+    text-transform: uppercase;
+    
+}
+
+
+.input-info{
+    display: block;
+    width: 100%; 
+    height: 50px; 
+    margin-bottom: 29px;
+    
+   
+}
+
+.input-info:last-child{
+    margin-bottom: 0;
+}
+
+.comment-info{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.submit{
+    
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 25px 47px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px; 
+    font-weight: 700;
+    font-weight: 700;
+    background-color: #fed136;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 0;
+}
+
+
