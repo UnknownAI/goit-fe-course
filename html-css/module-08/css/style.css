@@ -17,25 +17,24 @@ a{
     background-repeat: no-repeat;
     background-position: center center; 
     background-size: cover; 
-    padding-top: 20px;
-    padding-bottom: 138px;
+    padding-top: 1.25rem;
+    padding-bottom: 8.625rem;
 }
 .conteiner{
-    width:300px;
+    width:18.75rem; 
     margin: auto;
 }
 
 .header{
     display: flex; 
     flex-direction: column-reverse;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 38px;
-    height: 200px; 
+    margin-bottom: 2.375rem; 
 }
+
 .logo{
     color:  #ffffff;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -46,117 +45,131 @@ nav{
 .nav{
     display:flex; 
     justify-content: center;
+    margin-bottom:  6.938rem;
 }
 
 .nav-item{
-    padding: 10px 19px;
+    padding:  0.625rem  1.188rem;
+    border: 2px solid transparent;
 } 
 .nav-link{
     color:  #ffffff;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
 }
 
 .nav-item:hover{
     border: 2px solid #fff;
-    border-radius: 20px;
-    padding: 8px 17px;
+    border-radius: 1.25rem;
+   
 }
 
 .main-title{
     color:  #ffffff;
-    font-size: 30px;
+    font-size:  1.875rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 19px;
+    margin-bottom: 1.188rem;
     text-transform: uppercase;
 }
 .sub-title{
     font-family: 'Roboto', sans-serif;
     color:  #ffffff;
-    font-size: 18px;
+    font-size:  1.125rem;
     font-weight: lighter;
-    text-align: center;
-    margin-bottom: 19px;
-    padding: 0 29.5px;
+    text-align: center; 
+    margin-bottom:  1.125rem;
+    padding: 0  2.188rem;
+
+ 
 }
 
 .main-button-link{
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background-color: #ff4e50;
     display: block;
-    padding: 10px 0;
+    padding: 0.625rem 0;
     color:  #ffffff;
-    font-size: 14px;
+    font-size:  0.875rem;
     font-weight: 700;
     text-align: center;
 }
 
 .wrapper-bottom{
-    padding-top:70px;
-    padding-bottom:57px;
+    padding-top: 4.375rem;
+    padding-bottom: 3.563rem;
 }
 
 .partner-title{
-    color:  #333333;
-    font-size: 22px;
+    color:  #333;
+    font-size: 1.375rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .list-partner{
     margin: auto;
-    width: 217px;
+    width: 13.56rem;
  
 }
 .partner{
-    margin-bottom: 27px;
+    margin-bottom: 1.75rem;
 }
-
+.partner-picture{
+    position: relative;
+    margin-bottom: 0.875rem;
+}
 .partner-pic{
     display: block;
     margin: auto;
-    margin-bottom: 20px;
 }
+.icon{
+    position: absolute;
+    top:70%;
+    right:20%;
+}
+
 .partner-name, .partner-about{
     text-align: center;
 }
 
 .partner-name{
-    margin-bottom: 16px;
+    margin-bottom: 1rem; 
     color:  #333333;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
 
 }
 
 .partner-about{
     font-family: Roboto;
-color:  #666666;
-font-size: 13.97px;/* Приближение из-за подстановки шрифтов */
-font-weight: 300;
-text-align: center;
-}
-
-.partner-button-link{
-    border: 2px solid #ff4e50;
-    border-radius: 20px;
-    display: block;
-    padding: 10px 0;
-    color:  #ff4e50;
-    font-size: 14px;
-    font-weight: 700;
+    color:  #666666;
+    font-size: 0.875rem;
+    font-weight: 300;
     text-align: center;
 }
 
+.partner-button-link{
+    display: block;
+    border: 2px solid #ff4e50;
+    border-radius: 30px;
+    padding: 0.8125rem 0;
+    text-align: center;
+    color:  #ff4e50;
+    font-size: 0.875rem;
+    font-weight: 700;
+   
+}
+
+
 @media(min-width: 768px){
     .wrapper-top{
-        padding-top: 38px;
-        padding-bottom: 272px;
-    }
+       padding-top: 2.375rem;
+       padding-bottom: 17rem;
+    } 
     .conteiner{
-        width: 660px;  
+        width:  41.25rem; 
     } 
     .header{
         flex-direction: row;
@@ -164,74 +177,78 @@ text-align: center;
         align-items: center; 
         margin: auto;
         height: 100%; 
-        margin-bottom: 160px;
+        margin-bottom: 10rem;
     }
 
     nav{
         width: 30%;  
     }
+    .nav{
+        margin-bottom: 0;
+    }
 
     .main-title{
-        font-size: 50px;
-        padding:0 85px;
+        font-size: 3.125rem;
+        padding:0 5.313rem;
     }
 
     .sub-title{
         padding: 0 0;
-        margin-bottom: 34px;
+        margin-bottom: 2.125rem;
     }
 
     .main-button{ 
-        padding: 0 215px;
+        padding: 0 13.44rem;
+    }
+    .partner-title{
+        margin-bottom:  2.125rem;
     }
 
-    .partner-title{
-        margin-bottom: 34px;
-    }
     .list-partner{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        width: 100%;
-     
+        width:30.75rem; 
     }
+
     .partner{
-        flex-basis: 50%;
+        flex-basis: 44%; 
         margin-bottom: 0;
     }
+
      .partner:nth-child(2n+1){
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
     } 
 
     .partner-button{
-        margin-top: 30px;
-        padding: 0 233px;
+        margin-top: 1.875rem;
+        padding: 0  14.56rem;
     }
 
 }
 
 @media(min-width:1200px){
     .wrapper-top{
-        padding-top: 46px;
-        padding-bottom: 234px;
+        padding-top: 2.875rem;
+        padding-bottom: 14.63rem;
     }
     .conteiner{
-        width: 940px;
+        width:  58.75rem;
     }
     .header{
-        margin-bottom: 154px;
+        margin-bottom: 9.625rem;
     }
     nav{
         width: 20%;  
     }
     .main-title{
-        font-size: 52px;
-        padding:0 200px;
-        margin-bottom: 50px;
+        font-size:  3.25rem;
+        padding:0 12.5rem;
+        margin-bottom: 3.125rem;
     }
     .main-button{ 
-        padding: 0 355px;
+        padding: 0 22.19rem;
     }
     .list-partner{
         width: 100%;
@@ -245,8 +262,11 @@ text-align: center;
         flex-basis: 23%;
     }
     .partner-button{
-      
-        padding: 0 370px;
+        padding: 0 23.13rem;
+        border-radius: 20px;
     }
   
 }
+
+
+
