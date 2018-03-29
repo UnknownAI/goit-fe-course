@@ -61,12 +61,11 @@ nav{
 .nav-item:hover{
     border: 2px solid #fff;
     border-radius: 1.25rem;
-   
 }
 
 .main-title{
     color:  #ffffff;
-    font-size:  1.875rem;
+    font-size:  30px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 1.188rem;
@@ -80,8 +79,6 @@ nav{
     text-align: center; 
     margin-bottom:  1.125rem;
     padding: 0  2.188rem;
-
- 
 }
 
 .main-button-link{
@@ -117,6 +114,8 @@ nav{
     margin-bottom: 1.75rem;
 }
 .partner-picture{
+
+    
     position: relative;
     margin-bottom: 0.875rem;
 }
@@ -147,7 +146,7 @@ nav{
     color:  #666666;
     font-size: 0.875rem;
     font-weight: 300;
-    text-align: center;
+   
 }
 
 .partner-button-link{
