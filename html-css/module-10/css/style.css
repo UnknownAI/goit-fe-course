@@ -238,15 +238,13 @@ a{
     text-align: center;
     padding: 14px 0 15px;
     margin-right: -2px;
-   
+    fill: #f38181;
 }
 .social-media__icon:hover{
     background-color: #f38181;
     fill:#fff; 
 }
-.social-media__link{
-    fill: #f38181;
-}
+
 
 .footer{
     padding: 25px 0;
