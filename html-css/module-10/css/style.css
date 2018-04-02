@@ -17,7 +17,7 @@ a{
 }
 
 .wrapper--top{
-    background-image: url("../img/background/bcg.png"); 
+    background-image: url("../img/background/bcg-min.png"); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +30,7 @@ a{
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .wrapper--top {
-        background-image: url("../img/bcg@2x.png"); 
+        background-image: url("../img/bcg@2x-min.png"); 
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
