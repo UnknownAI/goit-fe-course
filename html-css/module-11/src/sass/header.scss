@@ -1,0 +1,50 @@
+
+.header{
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 160px;
+    }
+
+    &__title{
+        margin: auto;
+        margin-bottom: 125px;
+        width: 815px;
+        font-size: 150px;
+    }
+
+    &__before-title{
+        font-size: 72px;
+        margin-bottom: 40px; 
+    }
+
+}
+
+
+.logo{
+    font-family: $title; 
+    color: #fff; 
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav{
+    flex-basis: 50%;
+}
+
+.button{
+    text-align: center;
+
+    &__link{
+        font-family: $text;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;  
+        border: 3px solid #fff;
+        padding: 12px 28px; 
+    }
+}
+
+

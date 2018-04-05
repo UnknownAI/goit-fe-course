@@ -1,0 +1,32 @@
+.services{
+    margin-bottom: 90px;
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-between;
+        height: 250px;
+        
+    }
+    &__item{
+        flex-basis: 30%;
+    }
+
+    &__icon{
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 30px;
+        
+    }
+    &__info{
+        display: inline-block;
+        vertical-align: top;
+        width: 80%;
+    }
+
+    &__name{
+        margin-bottom: 20px;
+    }
+}
+
+
