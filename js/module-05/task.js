@@ -26,7 +26,7 @@ function SocialBook(users = [], posts = {}){
     this.posts = posts;
 
     this.getAllUsers = function(){
-        return this.users.map(user=>user);
+        return this.users;
     }
 
     this.getUserByLogin = function(login){
@@ -34,7 +34,7 @@ function SocialBook(users = [], posts = {}){
     }
 
     this.isUserActive = function(userId){
-        return (this.users.find(user => user.id === userId)).isActive;
+        return this.users.find(user => user.id === userId).isActive;
     }
 
     this.getActiveUsers = function(){
@@ -55,7 +55,8 @@ function SocialBook(users = [], posts = {}){
     } 
    
     this.removeUserById = function(userId){ 
-        this.users = this.users.filter(user => user.id !== userId ? user : null); 
+    
+        this.users = this.users.filter(user => user.id !== userId); 
         //users.splice(users.indexOf((users.find(user => user.id === userId))),1); 
     }
  
@@ -72,7 +73,7 @@ function SocialBook(users = [], posts = {}){
     }
     
     this.removePost = function(userId, postId){
-        this.posts[userId] = this.posts[userId].filter(post => post.id !== postId ? post : null); 
+        this.posts[userId] = this.posts[userId].filter(post => post.id !== postId); 
     }
     
     this.getAllLikes = function(userId){
