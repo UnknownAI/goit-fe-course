@@ -47,6 +47,7 @@ function removeSelected(){
     let currentSelected = document.querySelector('.selected'); 
     currentSelected.classList.remove('selected'); 
 }
+
 function addSelected(item){
     item.classList.add('selected');
 }
