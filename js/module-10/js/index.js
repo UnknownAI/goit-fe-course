@@ -86,11 +86,7 @@ function getAllUsers (){
 function onGetAllUsers(event){
     event.preventDefault();
     clearResultContainer();
-    
-    getAllUsers().then(response => {
-
-        userTable(response);
-    })
+    getAllUsers().then(response => { userTable(response) })
 }
 //#endregion
 
@@ -98,7 +94,6 @@ function onGetAllUsers(event){
 function getUserById(id){
     return fetch(`https://test-users-api.herokuapp.com/users/${id}`)
         .then(response => {
-            console.log(response.type);
             if (response.ok) return response.json();
             throw new Error(`Error while fetching: ${response.statusText}`);
         })
@@ -109,12 +104,10 @@ function getUserById(id){
 }
 
 
-function onGetUserById(event)  {
+function onGetUserById(event) {
     event.preventDefault();
     clearResultContainer();
-    getUserById(getUserInput.value).then(response => {
-        userTable(response);
-    });
+    getUserById(getUserInput.value).then(response => { userTable(response) });
     event.target.reset();
 }
 
@@ -205,14 +198,13 @@ function updateUser({ userId, name, age }) {
         },
     })
         .then(response => {
-            console.log(response);
             if (response.ok) return response.json();
             throw new Error('Error: ' + response.statusText);
         })
-        .then(payload => {
-            console.log(payload);
-            if (payload.errors.length === 0) return payload.data;
-            throw new Error(JSON.stringify(payload.errors));
+        .then(responseData => {
+            
+            if (responseData.errors.length === 0) return responseData.data;
+            throw new Error(JSON.stringify(responseData.errors));
         })
         .catch(error => console.error(error));
 }
