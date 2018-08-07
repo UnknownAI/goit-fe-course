@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Module-10</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <ul class="nav">
+            <li>
+                <button class='btn all-users'>Get all users</button>
+            </li>
+            <li>
+                <form class="nav-form id-user-form">
+                    <input type="text" class="id-user-input" placeholder="ID">
+                    <button type="submit" class="btn id-user-button">Get user</button>
+                </form>
+            </li>
+            <li>
+                <form class="nav-form add-user-form">
+                    <input type="text" class="add-user-name" placeholder="Name" value="">
+                    <input type="text" class="add-user-age" placeholder="Age">
+                    <button type="submit" class="btn add-user-button">Add user</button>
+                </form>
+            </li>
+            <li>
+                <form class="nav-form remove-user-form">
+                    <input type="text" class="remove-user-input" placeholder="ID">
+                    <button type="submit" class="btn remove-user-button">Remove</button>
+                </form>
+            </li>
+
+            <li>
+                <form class="nav-form update-user-form">
+                    <input type="text" class="update-user-id" placeholder="ID">
+                    <input type="text" class="update-user-name" placeholder="Name">
+                    <input type="text" class="update-user-age" placeholder="Age">
+                    <button type="submit" class="btn update-user-button">Update user</button>
+                </form>
+            </li>
+        </ul>
+        <div class="response">
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
